@@ -1,4 +1,4 @@
-# INTERNLOOM — SMART SHORTLISTING ENGINE
+# SmartSelect
 
 An explainable, recruiter-grade candidate shortlisting engine that evaluates and ranks resume batches against a Job Description using a combination of **fuzzy keyword matching** and **dense semantic embedding similarity**.
 
