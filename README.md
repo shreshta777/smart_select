@@ -185,13 +185,3 @@ When the final hackathon dataset is provided:
 The entire matching, scoring, ranking, explanation, and UI pipelines remain 100% identical.
 
 ---
-
-## Hackathon Rubric Alignment
-
-| Criterion | Implementation in InternLoom |
-|-----------|------------------------------|
-| **Semantic & Keyword Matching (35%)** | RapidFuzz fuzzy token normalization + `all-MiniLM-L6-v2` dense embedding cosine similarity. |
-| **Ranking Quality & Sensibility (20%)** | Transparent weighted scoring with realistic spread across strong, partial, and weak profiles. |
-| **Top-3 Explanations (20%)** | Grounded in matched/missing requirements, preferred skills, and extracted semantic evidence. |
-| **Working End-to-End Demo (15%)** | Complete FastAPI backend + responsive monochrome recruiter dashboard with 1-click demo dataset. |
-| **Bonus Features (10%)** | 1) "Why Candidate A over Candidate B?" comparison tool; 2) JD Bias & Narrow Phrasing Inspector; 3) Resilient parsing of non-standard resumes. |
