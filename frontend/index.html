@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartSelect &bull; Intelligent Talent Shortlisting</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Top SaaS Navigation -->
+  <header class="saas-navbar">
+    <div class="nav-container">
+      
+      <!-- Brand Logo -->
+      <div class="nav-brand" id="nav-brand-logo">
+        <div class="brand-badge-icon">S</div>
+        <div class="brand-text-wrap">
+          <span class="brand-main">SmartSelect</span>
+        </div>
+      </div>
+
+      <!-- Center Navigation Tabs -->
+      <nav class="nav-tabs" id="nav-tabs-bar">
+        <button class="nav-tab active" data-tab="tab-home">Home</button>
+        <button class="nav-tab" data-tab="tab-dashboard">Dashboard</button>
+        <button class="nav-tab" data-tab="tab-explainable">Rank Gap</button>
+        <button class="nav-tab" data-tab="tab-radar">Skill Radar</button>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- ==================== TAB 1: HOME (LANDING HERO + INTEGRATED PIPELINE) ==================== -->
+    <div class="tab-view active" id="tab-home">
+      
+      <!-- Premium Two-Column Hero Section -->
+      <section class="hero-section">
+        <div class="hero-container">
+
+          <!-- Left Column: Premium SaaS Copy & Conversion Area -->
+          <div class="hero-left">
+
+            <!-- Pill Tag -->
+            <div class="hero-pill-badge">
+              <span class="hero-pill-dot"></span>
+              <span class="hero-pill-text">Automated Multi-Format Candidate Screening</span>
+            </div>
+            
+            <!-- Large Hero Headline -->
+            <h1 class="hero-headline" style="margin-top: 10px;">
+              Find The Best Candidate<br>
+              <span class="text-gradient">Before Anyone Else</span>
+            </h1>
+
+            <!-- Supporting Paragraph -->
+            <p class="hero-description">
+              Hybrid <strong>Semantic + Keyword Intelligence</strong> for Explainable Hiring. Automate candidate parsing, audit job description bias, and benchmark applicant cohorts with evidence-backed precision.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-cta-group" style="margin-top: 24px;">
+              <button class="btn btn-hero-primary" id="btn-hero-upload">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                Upload Resumes <span class="cta-arrow">&rarr;</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Hero Right Column (SmartSelect Abstract Intelligence Visual) -->
+          <div class="hero-right">
+            <div class="smartselect-intelligence-visual">
+              
+              <!-- Subtle Abstract Resume Silhouette Backdrops -->
+              <div class="resume-silhouette-card silhouette-back">
+                <div class="silhouette-line line-title"></div>
+                <div class="silhouette-line line-short"></div>
+                <div class="silhouette-line line-full"></div>
+                <div class="silhouette-line line-med"></div>
+              </div>
+              <div class="resume-silhouette-card silhouette-front">
+                <div class="silhouette-line line-title"></div>
+                <div class="silhouette-line line-med"></div>
+                <div class="silhouette-line line-full"></div>
+                <div class="silhouette-line line-short"></div>
+              </div>
+
+              <!-- SVG Constellation & Neural Connecting Lines -->
+              <svg class="constellation-svg" viewBox="0 0 440 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Glowing gradient definitions -->
+                <defs>
+                  <linearGradient id="lineGrad1" x1="220" y1="190" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#2563EB" stop-opacity="0.2"/>
+                  </linearGradient>
+                  <linearGradient id="lineGrad2" x1="220" y1="190" x2="350" y2="70" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.2"/>
+                  </linearGradient>
+                  <linearGradient id="lineGrad3" x1="220" y1="190" x2="60" y2="200" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#2563EB" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.2"/>
+                  </linearGradient>
+                  <linearGradient id="lineGrad4" x1="220" y1="190" x2="370" y2="195" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.2"/>
+                  </linearGradient>
+                  <linearGradient id="lineGrad5" x1="220" y1="190" x2="90" y2="310" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#2563EB" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#10B981" stop-opacity="0.2"/>
+                  </linearGradient>
+                  <linearGradient id="lineGrad6" x1="220" y1="190" x2="340" y2="310" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+                  </linearGradient>
+                </defs>
+
+                <!-- Thin Connecting Lines -->
+                <line x1="220" y1="190" x2="80" y2="80" stroke="url(#lineGrad1)" stroke-width="1.5" stroke-dasharray="4 4" />
+                <line x1="220" y1="190" x2="350" y2="70" stroke="url(#lineGrad2)" stroke-width="1.5" stroke-dasharray="4 4" />
+                <line x1="220" y1="190" x2="60" y2="200" stroke="url(#lineGrad3)" stroke-width="1.5" stroke-dasharray="4 4" />
+                <line x1="220" y1="190" x2="370" y2="195" stroke="url(#lineGrad4)" stroke-width="1.5" stroke-dasharray="4 4" />
+                <line x1="220" y1="190" x2="90" y2="310" stroke="url(#lineGrad5)" stroke-width="1.5" stroke-dasharray="4 4" />
+                <line x1="220" y1="190" x2="340" y2="310" stroke="url(#lineGrad6)" stroke-width="1.5" stroke-dasharray="4 4" />
+
+                <!-- Inter-Node Web Connections -->
+                <line x1="80" y1="80" x2="60" y2="200" stroke="#E2E8F0" stroke-width="1" />
+                <line x1="350" y1="70" x2="370" y2="195" stroke="#E2E8F0" stroke-width="1" />
+                <line x1="60" y1="200" x2="90" y2="310" stroke="#E2E8F0" stroke-width="1" />
+                <line x1="370" y1="195" x2="340" y2="310" stroke="#E2E8F0" stroke-width="1" />
+
+                <!-- Junction Dots -->
+                <circle cx="80" cy="80" r="3" fill="#2563EB" opacity="0.6" />
+                <circle cx="350" cy="70" r="3" fill="#4F46E5" opacity="0.6" />
+                <circle cx="60" cy="200" r="3" fill="#06B6D4" opacity="0.6" />
+                <circle cx="370" cy="195" r="3" fill="#F59E0B" opacity="0.6" />
+                <circle cx="90" cy="310" r="3" fill="#10B981" opacity="0.6" />
+                <circle cx="340" cy="310" r="3" fill="#8B5CF6" opacity="0.6" />
+              </svg>
+
+              <!-- Central Glowing "S" SmartSelect Intelligence Mark -->
+              <div class="centerpiece-aura"></div>
+              <div class="centerpiece-pulse-ring ring-1"></div>
+              <div class="centerpiece-pulse-ring ring-2"></div>
+              
+              <div class="centerpiece-mark">
+                <div class="centerpiece-inner">
+                  <span class="centerpiece-letter">S</span>
+                </div>
+              </div>
+
+              <!-- Floating Satellite Intelligence Nodes -->
+              <!-- Node 1: Skills (Top-Left) -->
+              <div class="intelligence-node node-skills">
+                <span class="node-dot dot-blue"></span>
+                <span class="node-label">Skills</span>
+              </div>
+
+              <!-- Node 2: Semantic Match (Top-Right) -->
+              <div class="intelligence-node node-semantic">
+                <span class="node-dot dot-indigo"></span>
+                <span class="node-label">Semantic Match</span>
+              </div>
+
+              <!-- Node 3: Experience (Middle-Left) -->
+              <div class="intelligence-node node-experience">
+                <span class="node-dot dot-cyan"></span>
+                <span class="node-label">Experience</span>
+              </div>
+
+              <!-- Node 4: Keywords (Middle-Right) -->
+              <div class="intelligence-node node-keywords">
+                <span class="node-dot dot-amber"></span>
+                <span class="node-label">Keywords</span>
+              </div>
+
+              <!-- Node 5: Relevance (Bottom-Left) -->
+              <div class="intelligence-node node-relevance">
+                <span class="node-dot dot-emerald"></span>
+                <span class="node-label">Relevance</span>
+              </div>
+
+              <!-- Node 6: Ranking (Bottom-Right) -->
+              <div class="intelligence-node node-ranking">
+                <span class="node-dot dot-purple"></span>
+                <span class="node-label">Ranking</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Integrated PDF & Multi-format Upload Workspace Section -->
+      <section class="section-panel" id="upload-workspace-section">
+        <div class="section-title">
+          <div class="title-left">
+            <span class="section-number-tag">01</span>
+            <div>
+              <h3>Job Description & Candidate Resumes</h3>
+              <p class="section-subtitle">Upload 1 Job Description + Batch of Candidate Resumes &bull; Supported: PDF, DOCX, TXT, HTML</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="upload-grid">
+          <!-- Dropzone: JD -->
+          <div class="upload-card" id="jd-dropzone">
+            <input type="file" id="jd-file-input" accept=".pdf,.docx,.txt,.html,.htm">
+            <div class="upload-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <div class="upload-label">Job Description</div>
+            <div class="upload-hint">Drag &amp; drop JD file or click to browse<br><span style="font-size: 11px; font-weight: 700; color: #2563EB;">Supported: PDF, DOCX, TXT, HTML</span></div>
+            <div class="file-status" id="jd-file-status">No file selected</div>
+          </div>
+
+          <!-- Dropzone: Resumes Batch -->
+          <div class="upload-card" id="resumes-dropzone">
+            <input type="file" id="resumes-file-input" multiple accept=".pdf,.docx,.txt,.html,.htm">
+            <div class="upload-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="upload-label">Candidate Resumes (Batch)</div>
+            <div class="upload-hint">Drag &amp; drop batch of Resume files or click to browse<br><span style="font-size: 11px; font-weight: 700; color: #4F46E5;">Supported: PDF, DOCX, TXT, HTML</span></div>
+            <div class="file-status" id="resumes-file-status">No files selected</div>
+          </div>
+        </div>
+
+        <!-- Weight Tuner -->
+        <div class="weight-controls">
+          <div class="weight-item">
+            <label for="kw-weight-slider">
+              <span>Keyword Weight:</span>
+              <strong id="kw-weight-val">50</strong>%
+            </label>
+            <input type="range" id="kw-weight-slider" min="0" max="100" value="50" step="5">
+          </div>
+          <div class="weight-item">
+            <label for="sem-weight-slider">
+              <span>Semantic Weight:</span>
+              <strong id="sem-weight-val">50</strong>%
+            </label>
+            <input type="range" id="sem-weight-slider" min="0" max="100" value="50" step="5">
+          </div>
+        </div>
+
+        <!-- Action Buttons Toolbar -->
+        <div class="action-toolbar">
+          <button class="btn btn-primary" id="btn-rank-custom">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            Run Shortlisting Engine
+          </button>
+          <button class="btn btn-secondary" id="btn-run-demo">
+            🚀 Load Hackathon Sample Dataset
+          </button>
+          <button class="btn btn-secondary" id="btn-check-bias">
+            🛡 Audit JD Phrasing &amp; Inclusivity
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ==================== TAB 2: DASHBOARD (TOP 3 + RANKINGS) ==================== -->
+    <div class="tab-view" id="tab-dashboard">
+      
+      <!-- Top 3 Shortlist Highlights -->
+      <section class="section-panel" id="top-3-section">
+        <div class="section-title">
+          <div class="title-left">
+            <span class="section-number-tag">02</span>
+            <div>
+              <h3>Top-3 Shortlisted Candidates &amp; Justifications</h3>
+              <p class="section-subtitle">Multi-dimensional deterministic ranking &amp; evidence-backed rationale</p>
+            </div>
+          </div>
+        </div>
+        <div class="top-cards-grid" id="top-3-cards-container">
+          <!-- Injected via JavaScript or placeholder -->
+          <div class="empty-state-card">
+            <p>Upload a JD and resumes or click <strong>"Load Hackathon Sample Dataset"</strong> to generate top candidate analyses.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Full Rankings Table -->
+      <section class="section-panel" id="rankings-section">
+        <div class="section-title">
+          <div class="title-left">
+            <span class="section-number-tag">03</span>
+            <div>
+              <h3>Complete Candidate Rankings (<span id="candidate-count-badge">0</span> Candidates)</h3>
+              <p class="section-subtitle">Strictly sorted in descending order by Final Combined Score</p>
+            </div>
+          </div>
+        </div>
+        <div class="table-container">
+          <table class="rankings-table">
+            <thead>
+              <tr>
+                <th class="rank-col">Rank</th>
+                <th>Candidate Name</th>
+                <th class="score-col">Keyword Score</th>
+                <th class="score-col">Semantic Score</th>
+                <th class="score-col">Final Score</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="rankings-table-body">
+              <tr>
+                <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 36px;">
+                  No evaluation loaded. Run the engine on the Home tab to view the live rankings table.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ==================== TAB 3: HYBRID ENGINE ==================== -->
+    <div class="tab-view" id="tab-engine">
+      <section class="section-panel">
+        <div class="section-title">
+          <div class="title-left">
+            <span class="section-number-tag">⚙</span>
+            <div>
+              <h3>Dual-Vector Hybrid Engine Architecture</h3>
+              <p class="section-subtitle">Deterministic fusion of RapidFuzz token matching &amp; all-MiniLM-L6-v2 dense embeddings</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="engine-card-grid">
+          <!-- Card 1: Formula Explainer -->
+          <div class="engine-detail-card">
+            <div class="engine-card-header">
+              <span class="engine-pill">Scoring Model</span>
+              <h4>Linear Convex Combination</h4>
+            </div>
+            <div class="formula-box">
+              <code>FinalScore = (w_kw &times; KeywordScore) + (w_sem &times; SemanticScore)</code>
+            </div>
+            <p class="engine-desc">
+              Keyword score evaluates exact &amp; fuzzy token aliases (70% required skills, 30% preferred skills). Semantic score uses cosine similarity between 384-dimensional dense vectors generated by <strong>all-MiniLM-L6-v2</strong>.
+            </p>
+          </div>
+
+          <!-- Card 2: Interactive Real-Time Tuner -->
+          <div class="engine-detail-card">
+            <div class="engine-card-header">
+              <span class="engine-pill">Weights Distribution</span>
+              <h4>Live Engine Parameters</h4>
+            </div>
+            <div class="engine-stat-bars">
+              <div class="stat-bar-row">
+                <div class="stat-label">Keyword Contribution: <strong id="engine-kw-val">50%</strong></div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill fill-blue" id="engine-kw-bar" style="width: 50%;"></div>
+                </div>
+              </div>
+              <div class="stat-bar-row">
+                <div class="stat-label">Semantic Contribution: <strong id="engine-sem-val">50%</strong></div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill fill-indigo" id="engine-sem-bar" style="width: 50%;"></div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 16px;">
+              <button class="btn btn-secondary btn-sm" id="btn-re-evaluate-weights">Re-Evaluate Candidate Pool with Current Weights</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== TAB 4: RANK GAP (WHY A OVER B?) ==================== -->
+    <div class="tab-view" id="tab-explainable">
+      
+      <!-- Side-by-Side Comparison: Why Candidate A over Candidate B? -->
+      <section class="section-panel" id="comparison-section">
+        <div class="section-title">
+          <div class="title-left">
+            <span class="section-number-tag">04</span>
+            <div>
+              <h3>Rank Gap Analysis &amp; Candidate Comparison (Why A over B?)</h3>
+              <p class="section-subtitle">Head-to-head deterministic contrast explaining ranking differentials</p>
+            </div>
+          </div>
+        </div>
+        <div class="comparison-container">
+          <div class="comparison-selectors">
+            <div class="selector-box">
+              <label>Candidate A:</label>
+              <select class="comparison-select" id="select-candidate-a"></select>
+            </div>
+            <div class="selector-box">
+              <label>Candidate B:</label>
+              <select class="comparison-select" id="select-candidate-b"></select>
+            </div>
+            <button class="btn btn-primary btn-sm" id="btn-run-comparison">Compare Candidates</button>
+          </div>
+          <div id="comparison-result-area" class="comparison-result-card" style="display: none;">
+            <!-- Injected via JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Bias Audit Section -->
+      <div id="jd-bias-container" style="display: none;"></div>
+
+    </div>
+
+    <!-- ==================== TAB 5: SKILL RADAR ==================== -->
+    <div class="tab-view" id="tab-radar">
+      <section class="section-panel">
+        <div class="section-title">
+          <div class="title-left">
+            <span class="section-number-tag">05</span>
+            <div>
+              <h3>Candidate Skill Analytics &amp; Pool Distribution</h3>
+              <p class="section-subtitle">Cohort skill coverage, candidate score distribution, and top technical gaps</p>
+            </div>
+          </div>
+        </div>
+        <div id="radar-display-area" class="radar-analytics-container">
+          <div class="empty-state-card">
+            <p>Run shortlisting evaluation to visualize candidate skill analytics and pool distribution metrics.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Multi-Step Pipeline Progress Modal -->
+    <div class="modal-overlay" id="progress-modal-overlay">
+      <div class="progress-modal-card">
+        <div class="progress-brand-badge">S</div>
+        <h2 class="progress-modal-title">Analyzing Talent Intelligence</h2>
+        <p class="progress-modal-subtitle">Running dual matching and scoring pipeline across candidate cohort</p>
+
+        <!-- Overall Progress Header & Bar -->
+        <div class="overall-progress-wrap">
+          <div class="overall-progress-header">
+            <span class="progress-label">Overall Progress</span>
+            <span class="progress-pct" id="progress-pct-val">0%</span>
+          </div>
+          <div class="overall-progress-track">
+            <div class="overall-progress-fill" id="overall-progress-fill" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <!-- 8 Pipeline Steps -->
+        <div class="pipeline-steps-list" id="pipeline-steps-container">
+          
+          <!-- Step 1 -->
+          <div class="pipeline-step-item pending" id="step-1">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Reading Job Description</div>
+              <div class="step-desc">Extracting role title, responsibilities, and required competencies</div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="pipeline-step-item pending" id="step-2">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Parsing Resumes &amp; Extracting Text</div>
+              <div class="step-desc">Processing document layout blocks, experience chronologies, and projects</div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="pipeline-step-item pending" id="step-3">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Normalizing Technical Competencies</div>
+              <div class="step-desc">Resolving technology aliases (e.g. ReactJS &rarr; React, Postgres &rarr; PostgreSQL)</div>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="pipeline-step-item pending" id="step-4">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Running Keyword Matching Engine</div>
+              <div class="step-desc">Computing exact, alias, and fuzzy token matches with evidence excerpts</div>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="pipeline-step-item pending" id="step-5">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Running Semantic Embeddings</div>
+              <div class="step-desc">Encoding text with all-MiniLM-L6-v2 and calculating cosine similarities</div>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="pipeline-step-item pending" id="step-6">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Calculating Hybrid Alignment</div>
+              <div class="step-desc">Applying convex combination scoring mathematical model</div>
+            </div>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="pipeline-step-item pending" id="step-7">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Ranking Candidates</div>
+              <div class="step-desc">Benchmarking all candidates and establishing transparent score spread</div>
+            </div>
+          </div>
+
+          <!-- Step 8 -->
+          <div class="pipeline-step-item pending" id="step-8">
+            <div class="step-icon-wrap">
+              <div class="step-spinner"></div>
+              <span class="step-check">✔</span>
+              <span class="step-hollow"></span>
+            </div>
+            <div class="step-content">
+              <div class="step-title">Generating Top Candidate Insights</div>
+              <div class="step-desc">Synthesizing evidence-backed strengths, gaps, and recruiter verdicts</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Candidate Detail Modal -->
+  <div class="modal-overlay" id="candidate-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div id="modal-body-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

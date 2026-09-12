@@ -1,0 +1,299 @@
+[
+  {
+    "candidate_id": "C01",
+    "name": "Aarav Sharma",
+    "skills": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "MongoDB", "REST APIs", "Docker", "AWS", "Git"],
+    "experience": [
+      "Software Engineering Intern at CloudScale: Developed high-throughput RESTful APIs using Node.js and Express, improving request response times by 32%.",
+      "Built responsive dashboard interfaces using React.js and Tailwind CSS, consumed by 5,000+ daily active users.",
+      "Optimized MongoDB aggregations and indexing pipelines, reducing query latency across distributed collections.",
+      "Containerized microservices using Docker and automated deployment pipelines onto AWS ECS."
+    ],
+    "projects": [
+      "E-Commerce Platform: Built end-to-end full stack platform with React, Node.js, MongoDB, Stripe payment integration, and RESTful endpoints.",
+      "Real-time Collaboration Canvas: WebSockets and Node.js backend supporting concurrent whiteboard interactions."
+    ],
+    "education": ["B.Tech in Computer Science and Engineering, National Institute of Technology"],
+    "certifications": ["AWS Certified Cloud Practitioner", "Meta Front-End Developer Professional Certificate"],
+    "raw_text": "Aarav Sharma\nFull Stack Software Engineer\n\nTechnical Skills: JavaScript, TypeScript, React, Node.js, Express, MongoDB, REST APIs, Docker, AWS, Git\n\nExperience:\n- Software Engineering Intern at CloudScale: Developed high-throughput RESTful APIs using Node.js and Express, improving request response times by 32%.\n- Built responsive dashboard interfaces using React.js and Tailwind CSS, consumed by 5,000+ daily active users.\n- Optimized MongoDB aggregations and indexing pipelines, reducing query latency across distributed collections.\n- Containerized microservices using Docker and automated deployment pipelines onto AWS ECS.\n\nProjects:\n- E-Commerce Platform: Built end-to-end full stack platform with React, Node.js, MongoDB, Stripe payment integration, and RESTful endpoints.\n- Real-time Collaboration Canvas: WebSockets and Node.js backend supporting concurrent whiteboard interactions.\n\nEducation:\n- B.Tech in Computer Science and Engineering, National Institute of Technology"
+  },
+  {
+    "candidate_id": "C02",
+    "name": "Priya Patel",
+    "skills": ["React.js", "JavaScript", "NodeJS", "Mongo DB", "RESTful APIs", "Express.js", "AWS", "PostgreSQL", "HTML5", "CSS3"],
+    "experience": [
+      "Full Stack Web Intern at FinEdge: Designed and deployed Node.js backend services and integrated secure RESTful endpoints for transaction tracking.",
+      "Implemented dynamic client-side state management in React using Redux Toolkit.",
+      "Designed and maintained document schemas in MongoDB for storing user profiles and audit logs."
+    ],
+    "projects": [
+      "Task Matrix Application: Full-stack MERN application with user authentication, role-based authorization, and REST APIs.",
+      "Inventory Management System: Built backend APIs in Node.js and structured MongoDB queries."
+    ],
+    "education": ["B.E. in Information Technology, Mumbai University"],
+    "certifications": ["MongoDB Certified Associate Developer"],
+    "raw_text": "Priya Patel\nFull Stack Web Developer\n\nSkills: React.js, JavaScript, NodeJS, Mongo DB, RESTful APIs, Express.js, AWS, PostgreSQL, HTML5, CSS3\n\nWork Experience:\n- Full Stack Web Intern at FinEdge: Designed and deployed Node.js backend services and integrated secure RESTful endpoints for transaction tracking.\n- Implemented dynamic client-side state management in React using Redux Toolkit.\n- Designed and maintained document schemas in MongoDB for storing user profiles and audit logs.\n\nProjects:\n- Task Matrix Application: Full-stack MERN application with user authentication, role-based authorization, and REST APIs.\n- Inventory Management System: Built backend APIs in Node.js and structured MongoDB queries."
+  },
+  {
+    "candidate_id": "C03",
+    "name": "Rohan Verma",
+    "skills": ["React", "JavaScript", "Node.js", "MongoDB", "REST APIs", "Docker", "Git", "Redux", "Linux"],
+    "experience": [
+      "Web Developer Intern at PixelCraft: Engineered scalable Node.js microservices and REST APIs for content management.",
+      "Created modular React UI component library with comprehensive unit tests in Jest.",
+      "Configured Docker containers for localized multi-container development environments."
+    ],
+    "projects": [
+      "Developer Social Network: React and Node.js platform featuring REST API endpoints and MongoDB database indexing.",
+      "DevOps Automation Tool: Docker container orchestration for continuous integration."
+    ],
+    "education": ["B.Tech in Computer Science, Manipal Institute of Technology"],
+    "certifications": ["Docker Certified Associate"],
+    "raw_text": "Rohan Verma\nSoftware Engineering Candidate\n\nTechnical Expertise: React, JavaScript, Node.js, MongoDB, REST APIs, Docker, Git, Redux, Linux\n\nExperience:\n- Web Developer Intern at PixelCraft: Engineered scalable Node.js microservices and REST APIs for content management.\n- Created modular React UI component library with comprehensive unit tests in Jest.\n- Configured Docker containers for localized multi-container development environments.\n\nProjects:\n- Developer Social Network: React and Node.js platform featuring REST API endpoints and MongoDB database indexing."
+  },
+  {
+    "candidate_id": "C04",
+    "name": "Ananya Iyer",
+    "skills": ["JavaScript", "React", "Node.js", "Express", "REST APIs", "MongoDB", "Tailwind CSS", "Git"],
+    "experience": [
+      "Frontend & API Intern at NexGen: Created customer-facing dashboards with React and JavaScript.",
+      "Built backend routing, data validation, and REST API controllers in Express/Node.js.",
+      "Managed collections and schema relationships in MongoDB."
+    ],
+    "projects": [
+      "Campus Placement Portal: React frontend connecting to Node.js / MongoDB backend via JSON REST APIs.",
+      "Event Ticket Booking App: Real-time booking engine with RESTful services."
+    ],
+    "education": ["B.Tech in Information Science, Bangalore Institute of Technology"],
+    "certifications": ["Certified JavaScript Developer"],
+    "raw_text": "Ananya Iyer\nFull Stack Developer\n\nSkills: JavaScript, React, Node.js, Express, REST APIs, MongoDB, Tailwind CSS, Git\n\nExperience:\n- Frontend & API Intern at NexGen: Created customer-facing dashboards with React and JavaScript.\n- Built backend routing, data validation, and REST API controllers in Express/Node.js.\n- Managed collections and schema relationships in MongoDB.\n\nProjects:\n- Campus Placement Portal: React frontend connecting to Node.js / MongoDB backend via JSON REST APIs."
+  },
+  {
+    "candidate_id": "C05",
+    "name": "Vikram Malhotra",
+    "skills": ["ECMAScript", "Frontend Architecture", "Backend Engineering", "Express", "NoSQL", "Microservices", "Docker", "AWS", "Git"],
+    "experience": [
+      "Backend Developer Intern at AlphaCore: Built backend microservices and exposed JSON web endpoints for asynchronous data processing.",
+      "Authored component-driven web interfaces using modern ES6+ paradigms and stateful workflows.",
+      "Structured high-performance document database models and query caching.",
+      "Packaged microservices into Docker containers for cloud hosting on AWS EC2."
+    ],
+    "projects": [
+      "Distributed Stream Processor: Microservice application handling web requests and storing unstructured records in document datastores.",
+      "Interactive Analytics Portal: Web client utilizing component lifecycles and asynchronous API communication."
+    ],
+    "education": ["B.Tech in Computer Science, BITS Pilani"],
+    "certifications": ["AWS Solutions Architect Associate"],
+    "raw_text": "Vikram Malhotra\nSoftware Engineer\n\nCore Competencies: ECMAScript, Frontend Architecture, Backend Engineering, Express, NoSQL, Microservices, Docker, AWS, Git\n\nExperience:\n- Backend Developer Intern at AlphaCore: Built backend microservices and exposed JSON web endpoints for asynchronous data processing.\n- Authored component-driven web interfaces using modern ES6+ paradigms and stateful workflows.\n- Structured high-performance document database models and query caching.\n- Packaged microservices into Docker containers for cloud hosting on AWS EC2.\n\nProjects:\n- Distributed Stream Processor: Microservice application handling web requests and storing unstructured records in document datastores."
+  },
+  {
+    "candidate_id": "C06",
+    "name": "Siddharth Rao",
+    "skills": ["JavaScript", "FastAPI", "Node.js", "MongoDB", "REST APIs", "Python", "AWS", "Docker"],
+    "experience": [
+      "Full Stack Engineering Intern at ScaleGrid: Designed RESTful API contracts and server-side business logic in Node.js and Python.",
+      "Integrated NoSQL datastores with MongoDB for real-time document search.",
+      "Deployed containerized application instances on AWS ECS with automated health checks."
+    ],
+    "projects": [
+      "API Gateway Service: High-performance routing layer connecting React web clients with backend microservices.",
+      "Document Storage Hub: MongoDB-backed storage application with REST API endpoints."
+    ],
+    "education": ["B.E. in Computer Engineering, Pune Institute of Computer Technology"],
+    "certifications": ["AWS Developer Associate"],
+    "raw_text": "Siddharth Rao\nFull Stack Engineer\n\nSkills: JavaScript, FastAPI, Node.js, MongoDB, REST APIs, Python, AWS, Docker\n\nProfessional Experience:\n- Full Stack Engineering Intern at ScaleGrid: Designed RESTful API contracts and server-side business logic in Node.js and Python.\n- Integrated NoSQL datastores with MongoDB for real-time document search.\n- Deployed containerized application instances on AWS ECS with automated health checks."
+  },
+  {
+    "candidate_id": "C07",
+    "name": "Neha Gupta",
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB", "REST APIs", "Postman", "CSS3", "HTML5"],
+    "experience": [
+      "Web Developer at InnoTech: Built web components using React.js and consumed internal REST APIs.",
+      "Wrote CRUD endpoints in Node.js and performed schema migrations in MongoDB.",
+      "Conducted extensive API endpoint testing using Postman."
+    ],
+    "projects": [
+      "Job Board Engine: Web portal with React user interface and Node.js / MongoDB backend.",
+      "Recipe Sharing Hub: Full-stack application with user authentication and image uploads."
+    ],
+    "education": ["B.Tech in Information Technology, Delhi Technological University"],
+    "certifications": ["Complete Web Development Bootcamp"],
+    "raw_text": "Neha Gupta\nWeb Developer\n\nSkills: JavaScript, React, Node.js, MongoDB, REST APIs, Postman, CSS3, HTML5\n\nWork Experience:\n- Web Developer at InnoTech: Built web components using React.js and consumed internal REST APIs.\n- Wrote CRUD endpoints in Node.js and performed schema migrations in MongoDB.\n- Conducted extensive API endpoint testing using Postman."
+  },
+  {
+    "candidate_id": "C08",
+    "name": "Karan Mehta",
+    "skills": ["Next.js", "React", "Node.js", "JavaScript", "MongoDB", "REST APIs", "GraphQL", "Tailwind CSS"],
+    "experience": [
+      "Full Stack Intern at ByteWave: Developed server-side rendered web applications using Next.js and React.",
+      "Engineered backend REST APIs with Node.js and integrated MongoDB collections."
+    ],
+    "projects": [
+      "Digital Publishing Platform: Next.js frontend with Node.js REST API and MongoDB storage.",
+      "Portfolio Showcase: React web app with animations and responsive layouts."
+    ],
+    "education": ["B.Tech in Computer Science, SRM Institute of Science and Technology"],
+    "certifications": ["Full Stack Open Certification, University of Helsinki"],
+    "raw_text": "Karan Mehta\nFull Stack Developer\n\nTechnical Skills: Next.js, React, Node.js, JavaScript, MongoDB, REST APIs, GraphQL, Tailwind CSS\n\nExperience:\n- Full Stack Intern at ByteWave: Developed server-side rendered web applications using Next.js and React.\n- Engineered backend REST APIs with Node.js and integrated MongoDB collections."
+  },
+  {
+    "candidate_id": "C09",
+    "name": "Divya Nair",
+    "skills": ["React", "Node.js", "JavaScript", "REST APIs", "SQL", "MongoDB", "Git"],
+    "experience": [
+      "Junior Developer at SoftServe: Contributed to React web application maintenance and bug fixes.",
+      "Developed basic Node.js API endpoints for data ingestion."
+    ],
+    "projects": [
+      "Student Management System: React UI with Node.js and MongoDB database.",
+      "Weather Dashboard: Consumed third-party REST APIs using JavaScript fetch."
+    ],
+    "education": ["B.Sc in Computer Science, Calicut University"],
+    "certifications": ["Frontend Web Developer Certificate"],
+    "raw_text": "Divya Nair\nJunior Developer\n\nSkills: React, Node.js, JavaScript, REST APIs, SQL, MongoDB, Git\n\nExperience:\n- Junior Developer at SoftServe: Contributed to React web application maintenance and bug fixes.\n- Developed basic Node.js API endpoints for data ingestion."
+  },
+  {
+    "candidate_id": "C10",
+    "name": "Aditya Sen",
+    "skills": ["JavaScript", "React", "Node.js", "Express", "REST APIs", "HTML", "CSS"],
+    "experience": [
+      "Web Development Intern at CodeCrafters: Assisted in developing React UI pages and linking them to Express/Node.js REST APIs.",
+      "Assisted in writing unit tests for frontend user interface flows."
+    ],
+    "projects": [
+      "Personal Blog Application: React frontend with Express backend APIs.",
+      "Markdown Note Taker: Client-side JavaScript web application."
+    ],
+    "education": ["B.Tech in Computer Science, Heritage Institute of Technology"],
+    "certifications": [],
+    "raw_text": "Aditya Sen\nWeb Developer\n\nSkills: JavaScript, React, Node.js, Express, REST APIs, HTML, CSS\n\nExperience:\n- Web Development Intern at CodeCrafters: Assisted in developing React UI pages and linking them to Express/Node.js REST APIs.\n- Assisted in writing unit tests for frontend user interface flows."
+  },
+  {
+    "candidate_id": "C11",
+    "name": "Tanvi Kulkarni",
+    "skills": ["React", "JavaScript", "HTML5", "CSS3", "Redux", "Tailwind CSS", "Figma", "Git"],
+    "experience": [
+      "Frontend Developer Intern at PixelStudio: Built interactive web pages with React and Redux.",
+      "Converted Figma mockups into pixel-perfect responsive HTML/CSS designs."
+    ],
+    "projects": [
+      "Design System Component Library: Reusable React UI component kit.",
+      "Crypto Tracker UI: Frontend React dashboard displaying mock financial data."
+    ],
+    "education": ["B.Tech in Information Technology, Symbiosis Institute of Technology"],
+    "certifications": ["Meta Front-End Developer"],
+    "raw_text": "Tanvi Kulkarni\nFrontend Developer\n\nSkills: React, JavaScript, HTML5, CSS3, Redux, Tailwind CSS, Figma, Git\n\nExperience:\n- Frontend Developer Intern at PixelStudio: Built interactive web pages with React and Redux.\n- Converted Figma mockups into pixel-perfect responsive HTML/CSS designs."
+  },
+  {
+    "candidate_id": "C12",
+    "name": "Rahul Deshmukh",
+    "skills": ["Python", "Django", "FastAPI", "REST APIs", "PostgreSQL", "Docker", "AWS", "Git"],
+    "experience": [
+      "Backend Engineer Intern at DataPulse: Developed asynchronous REST APIs in Python using FastAPI and PostgreSQL.",
+      "Containerized backend microservices using Docker and provisioned AWS S3 buckets for object storage."
+    ],
+    "projects": [
+      "E-Commerce Backend API: Python Django REST Framework with automated Swagger documentation.",
+      "Automated ETL Pipeline: PostgreSQL data extraction and transformation service."
+    ],
+    "education": ["B.E. in Computer Engineering, College of Engineering Pune (COEP)"],
+    "certifications": ["AWS Certified Cloud Practitioner"],
+    "raw_text": "Rahul Deshmukh\nBackend Software Engineer\n\nSkills: Python, Django, FastAPI, REST APIs, PostgreSQL, Docker, AWS, Git\n\nExperience:\n- Backend Engineer Intern at DataPulse: Developed asynchronous REST APIs in Python using FastAPI and PostgreSQL.\n- Containerized backend microservices using Docker and provisioned AWS S3 buckets for object storage."
+  },
+  {
+    "candidate_id": "C13",
+    "name": "Meera Joshi",
+    "skills": ["JavaScript", "HTML5", "CSS3", "jQuery", "Bootstrap", "MySQL", "PHP"],
+    "experience": [
+      "Junior Web Assistant at WebTech Solutions: Maintained legacy client websites and updated PHP scripts.",
+      "Performed relational database table updates and basic SQL queries in MySQL."
+    ],
+    "projects": [
+      "Restaurant Website: Static multi-page website built with HTML5, CSS3, and JavaScript.",
+      "Student Registration Form: PHP form processing with MySQL database storage."
+    ],
+    "education": ["B.Sc in Information Technology, St. Xavier's College"],
+    "certifications": [],
+    "raw_text": "Meera Joshi\nWeb Developer\n\nSkills: JavaScript, HTML5, CSS3, jQuery, Bootstrap, MySQL, PHP\n\nExperience:\n- Junior Web Assistant at WebTech Solutions: Maintained legacy client websites and updated PHP scripts.\n- Performed relational database table updates and basic SQL queries in MySQL."
+  },
+  {
+    "candidate_id": "C14",
+    "name": "Arjun Reddy",
+    "skills": ["Java", "Spring Boot", "Microservices", "REST APIs", "MySQL", "Docker", "Git", "Maven"],
+    "experience": [
+      "Java Developer Intern at Enterprise Systems: Developed enterprise REST APIs using Java and Spring Boot framework.",
+      "Configured Hibernate ORM mappings for MySQL relational database tables."
+    ],
+    "projects": [
+      "Banking Transaction Engine: Java Spring Boot RESTful services with JWT token authentication.",
+      "Employee Payroll System: Microservices architecture with Docker containers."
+    ],
+    "education": ["B.Tech in Computer Science, Osmania University"],
+    "certifications": ["Oracle Certified Professional: Java SE Programmer"],
+    "raw_text": "Arjun Reddy\nJava Backend Developer\n\nSkills: Java, Spring Boot, Microservices, REST APIs, MySQL, Docker, Git, Maven\n\nExperience:\n- Java Developer Intern at Enterprise Systems: Developed enterprise REST APIs using Java and Spring Boot framework.\n- Configured Hibernate ORM mappings for MySQL relational database tables."
+  },
+  {
+    "candidate_id": "C15",
+    "name": "Shreya Banerjee",
+    "skills": ["Python", "PyTorch", "TensorFlow", "Pandas", "NumPy", "Scikit-Learn", "Computer Vision", "OpenCV"],
+    "experience": [
+      "Machine Learning Research Intern at AI Labs: Trained convolutional neural networks for automated image classification in PyTorch.",
+      "Preprocessed high-dimensional tabular datasets and computed statistical features with Pandas and NumPy."
+    ],
+    "projects": [
+      "Medical Image Segmentation: Deep learning pipeline for MRI scan analysis using PyTorch.",
+      "Customer Churn Predictor: Machine learning classification model built with Scikit-Learn."
+    ],
+    "education": ["B.Tech in Data Science, Indian Institute of Information Technology (IIIT)"],
+    "certifications": ["Deep Learning Specialization (Coursera)"],
+    "raw_text": "Shreya Banerjee\nMachine Learning Engineer & Data Scientist\n\nSkills: Python, PyTorch, TensorFlow, Pandas, NumPy, Scikit-Learn, Computer Vision, OpenCV\n\nExperience:\n- Machine Learning Research Intern at AI Labs: Trained convolutional neural networks for automated image classification in PyTorch.\n- Preprocessed high-dimensional tabular datasets and computed statistical features with Pandas and NumPy."
+  },
+  {
+    "candidate_id": "C16",
+    "name": "Varun Nambiar",
+    "skills": ["Kotlin", "Android SDK", "Java", "Swift", "iOS", "Firebase", "Room DB", "Jetpack Compose"],
+    "experience": [
+      "Android Developer Intern at MobileApp Labs: Built native Android applications in Kotlin using MVVM architecture.",
+      "Integrated Firebase Authentication and Cloud Firestore for real-time mobile push notifications."
+    ],
+    "projects": [
+      "Fitness Tracker Mobile App: Android application built with Kotlin and Jetpack Compose.",
+      "Expense Logger: iOS and Android application with local SQLite database storage."
+    ],
+    "education": ["B.Tech in Computer Science, Amrita Vishwa Vidyapeetham"],
+    "certifications": ["Associate Android Developer (Google)"],
+    "raw_text": "Varun Nambiar\nMobile Application Developer\n\nSkills: Kotlin, Android SDK, Java, Swift, iOS, Firebase, Room DB, Jetpack Compose\n\nExperience:\n- Android Developer Intern at MobileApp Labs: Built native Android applications in Kotlin using MVVM architecture.\n- Integrated Firebase Authentication and Cloud Firestore for real-time mobile push notifications."
+  },
+  {
+    "candidate_id": "C17",
+    "name": "Pooja Hegde",
+    "skills": ["Figma", "Adobe XD", "User Research", "Wireframing", "UI/UX Design", "HTML", "CSS", "Design Systems"],
+    "experience": [
+      "Product Design Intern at CreativeMinds: Created interactive Figma prototypes, user personas, and customer journey maps.",
+      "Conducted usability testing sessions with 20+ participants to iterate on mobile interface workflows."
+    ],
+    "projects": [
+      "FinTech App Redesign: Comprehensive Figma prototype and design system with accessibility guidelines.",
+      "E-Learning Dashboard UI: Low-fidelity wireframes and user research documentation."
+    ],
+    "education": ["B.Des in Interaction Design, National Institute of Design (NID)"],
+    "certifications": ["Google UX Design Professional Certificate"],
+    "raw_text": "Pooja Hegde\nUI/UX & Product Designer\n\nSkills: Figma, Adobe XD, User Research, Wireframing, UI/UX Design, HTML, CSS, Design Systems\n\nExperience:\n- Product Design Intern at CreativeMinds: Created interactive Figma prototypes, user personas, and customer journey maps.\n- Conducted usability testing sessions with 20+ participants to iterate on mobile interface workflows."
+  },
+  {
+    "candidate_id": "C18",
+    "name": "Nikhil Joshi",
+    "skills": ["C", "C++", "Embedded C", "Microcontrollers", "RTOS", "STM32", "UART", "I2C", "PCB Design"],
+    "experience": [
+      "Embedded Systems Intern at IoT Innovations: Programmed STM32 microcontrollers in C for sensor data acquisition.",
+      "Designed hardware schematic diagrams and routed two-layer PCB layouts using KiCad."
+    ],
+    "projects": [
+      "Smart Energy Meter: Firmware development in Embedded C with UART serial communication.",
+      "Home Automation Gateway: Microcontroller firmware interfacing with environmental temperature sensors."
+    ],
+    "education": ["B.Tech in Electronics and Communication Engineering, RV College of Engineering"],
+    "certifications": ["Embedded Systems Architecture Certificate"],
+    "raw_text": "Nikhil Joshi\nEmbedded Systems & Firmware Engineer\n\nSkills: C, C++, Embedded C, Microcontrollers, RTOS, STM32, UART, I2C, PCB Design\n\nExperience:\n- Embedded Systems Intern at IoT Innovations: Programmed STM32 microcontrollers in C for sensor data acquisition.\n- Designed hardware schematic diagrams and routed two-layer PCB layouts using KiCad."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "job_title": "Junior Full Stack Developer Intern",
+  "company": "TechNova Solutions",
+  "required_skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "REST APIs"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "AWS"
+  ],
+  "responsibilities": [
+    "Develop RESTful APIs using Node.js and integrate with client-facing frontend applications.",
+    "Build responsive, modern web interfaces and reusable components using React and JavaScript.",
+    "Design and optimize NoSQL database schemas and aggregation queries in MongoDB.",
+    "Participate in Agile sprints, code reviews, and cross-functional feature planning.",
+    "Deploy containerized microservices and configure basic cloud infrastructure on AWS."
+  ],
+  "education_requirements": [
+    "Bachelor's degree in Computer Science, Information Technology, or equivalent practical experience."
+  ],
+  "experience_requirements": [
+    "Demonstrated hands-on experience through prior internships, open-source contributions, or comprehensive full-stack web applications."
+  ],
+  "description": "TechNova Solutions is seeking an enthusiastic Junior Full Stack Developer Intern to contribute to our next-generation web applications. You will work across both client-side React architectures and scalable Node.js backend services, handling everything from API engineering to database optimization.",
+  "raw_text": "TechNova Solutions - Junior Full Stack Developer Intern\n\nAbout the Role:\nTechNova Solutions is seeking an enthusiastic Junior Full Stack Developer Intern to contribute to our next-generation web applications.\n\nRequired Skills:\n- JavaScript\n- React\n- Node.js\n- MongoDB\n- REST APIs\n\nPreferred Skills:\n- Docker\n- AWS\n\nKey Responsibilities:\n- Develop RESTful APIs using Node.js and integrate with client-facing frontend applications.\n- Build responsive, modern web interfaces and reusable components using React and JavaScript.\n- Design and optimize NoSQL database schemas and aggregation queries in MongoDB.\n- Participate in Agile sprints, code reviews, and cross-functional feature planning.\n- Deploy containerized microservices and configure basic cloud infrastructure on AWS."
+}
